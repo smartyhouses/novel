@@ -15,16 +15,16 @@ export const defaultEditorContent = {
             {
               type: "link",
               attrs: {
-                href: "https://github.com/steven-tey/novel",
+                href: "https://prtl.cc",
                 target: "_blank",
               },
             },
           ],
-          text: "Novel",
+          text: "Портал",
         },
         {
           type: "text",
-          text: " is a Notion-style WYSIWYG editor with AI-powered autocompletion. Built with ",
+          text: " блокнот с ИИ ",
         },
         {
           type: "text",
@@ -32,26 +32,12 @@ export const defaultEditorContent = {
             {
               type: "link",
               attrs: {
-                href: "https://tiptap.dev/",
+                href: "https://portalos.ru/",
                 target: "_blank",
               },
             },
           ],
-          text: "Tiptap",
-        },
-        { type: "text", text: " + " },
-        {
-          type: "text",
-          marks: [
-            {
-              type: "link",
-              attrs: {
-                href: "https://sdk.vercel.ai/docs",
-                target: "_blank",
-              },
-            },
-          ],
-          text: "Vercel AI SDK",
+          text: "Портал ОС",
         },
         { type: "text", text: "." },
       ],
