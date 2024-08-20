@@ -5,9 +5,9 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import Providers from "./providers";
 
-const title = "Novel - Notion-style WYSIWYG editor with AI-powered autocompletions";
+const title = "Портал блокнот - ИИ редактор текста";
 const description =
-  "Novel is a Notion-style WYSIWYG editor with AI-powered autocompletions. Built with Tiptap, OpenAI, and Vercel AI SDK.";
+  "Портал блокнот - ИИ редактор текста.";
 
 export const metadata: Metadata = {
   title,
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: "@steventey",
   },
-  metadataBase: new URL("https://novel.sh"),
+  metadataBase: new URL("https://prtl.cc"),
 };
 
 export const viewport: Viewport = {
